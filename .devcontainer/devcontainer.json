@@ -1,0 +1,10 @@
+{
+  "name": "Extism Python: HTTP request from WASM",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}
