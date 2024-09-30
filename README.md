@@ -5,7 +5,7 @@
 
 ## Instructions for this devcontainer
 
-Tested with Extism Python PDK [v0.1.0](https://github.com/extism/python-pdk/releases/tag/v0.1.0),
+Tested with Extism Python PDK [commit 967e40d9](https://github.com/extism/python-pdk/tree/967e40d9355707b509a78090b150079ed08878bd/),
 Extism CLI [v1.5.4](https://github.com/extism/cli/releases/tag/v1.5.4).
 
 ### Preparation
@@ -17,7 +17,7 @@ Extism CLI [v1.5.4](https://github.com/extism/cli/releases/tag/v1.5.4).
 2. Install extism-python-pdk and its dependencies like Binaryen's wasm-merge and wasm-opt by invoking the official installation script:
 
 ```sh
-curl -O https://raw.githubusercontent.com/extism/python-pdk/v0.1.0/install.sh
+curl -sSL -O https://github.com/extism/python-pdk/raw/967e40d9355707b509a78090b150079ed08878bd/install.sh
 sh install.sh
 ```
 

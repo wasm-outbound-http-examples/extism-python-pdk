@@ -1,5 +1,9 @@
 {
   "name": "Extism Python: HTTP request from WASM",
+  "image": "ubuntu:jammy",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
